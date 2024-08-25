@@ -23,6 +23,18 @@
 14. now you can a update sub-tasks status as 'completed'. then go to the home tab see the real-time notification.
 15. then, try the projects reports api.
 16. do not forget to export the report as excel (copy the url from postman & try from browser)
+     
+     ------------------------------
+     
+     CRUD APIs have resource method. Structure of the api endpoints are like this: 
+     
+            POST http://127.0.0.1:8000/api/projects         (store)
+            GET http://127.0.0.1:8000/api/projects          (Get all)
+            GET http://127.0.0.1:8000/api/projects/{id}     (Get Single)
+            PUT http://127.0.0.1:8000/api/projects/{id}     (update)
+            
+            -----------------
+            stucture same for Tasks, Sub-task.
                 
                                 
         
